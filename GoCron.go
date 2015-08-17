@@ -6,6 +6,7 @@ import (
 	"time"	
 	"strings"
 	"io/ioutil"
+	"os"
 	"os/exec"
 	"bytes"
 	"strconv"
@@ -30,6 +31,7 @@ func main() {
 		fmt.Printf("GoCron Version:%s\n", version)
 		fmt.Println("-load\tload cronjob script,cronjob script like crontab script.")
 		fmt.Println("========================")
+		os.Exit(1)
 	}
 	loadScript(script)
 	
