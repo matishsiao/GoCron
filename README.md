@@ -16,8 +16,14 @@ GoCron like crontab service, but it can running on Windows use crontab like scri
   
 #How to run
 
-  GoCron  //it's will load default path:cron.cs
+## it's will load default path:cron.cs
+
+<code>
+  GoCron
+</code>
   
-  You can write your cronjob script and load it
-  
+## You can write your cronjob script and load it
+
+<code>
   GoCron -load my.cs 
+</code>
