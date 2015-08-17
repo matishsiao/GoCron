@@ -1,6 +1,6 @@
 # GoCron
 
-GoCron like Corntab service, but it can running on Windows use same crontab script.
+GoCron like crontab service, but it can running on Windows use crontab like script.
 
 #Futures
 
